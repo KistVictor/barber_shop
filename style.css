@@ -2,11 +2,15 @@ body{
     background: #cccccc;
 }
 
-p {
+#banner{
+    width: 100%;
+}
+
+p{
     text-align: center;
 }
 
-#missao {
+#missao{
     font-size: 20px
 }
 
