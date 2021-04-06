@@ -1,26 +1,66 @@
-#banner{
-    width: 100%;
+header{
+    background: url(img/barbershopmed.jpg);
+    background-size: 100%;
+    padding: 20px 0;
 }
 
-.principal{
+.caixa-header{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+main{
     background: #cccccc;
     padding: 30px;
 }
 
-.titulo-principal{
-    padding-left: 20px;
+.caixa-main{
+    background-color: #ffffff;
+    width: 800px;
+    position: relative;
+    margin: 80px auto;
 }
 
-p{
-    text-align: center;
+.caixa-main img{
+    width: 400px;
+    margin: -10px 20px 20px -10px;
+}
+
+.texto-main h2{
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.texto-main p{
+    position: absolute;
+    top: 50px;
 }
 
 #missao{
     font-size: 20px
-}
-
-.titulo-centralizado{
-    text-align: center;
 }
 
 em strong{
@@ -45,4 +85,16 @@ ul{
 
 .imgbeneficios{
     width: 50%;
+}
+
+footer{
+    text-align: center;
+    background: url(img/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
 }
