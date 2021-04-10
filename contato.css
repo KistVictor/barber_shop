@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background: #BBBBBB;
     padding: 20px 0;
@@ -94,7 +98,7 @@ select{
 
 .enviar:hover{
     background-color: darkorange;
-    transform: rotate(1deg) scale(1.2);
+    transform: rotate(0.5deg) scale(1.2);
 }
 
 table{
