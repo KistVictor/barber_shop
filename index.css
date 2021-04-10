@@ -45,7 +45,7 @@ nav a{
     margin: 0 auto;
 }
 
-.caixa-main img{
+.barbearia-slim{
     width: 250px;
     float: left;
     margin: -15px 20px 20px -10px;
@@ -168,9 +168,13 @@ footer{
 @media screen and (max-width: 480px){
 
     header{
-        background: url(img/barberslim.jpg);
+        background: url(img/barberslim-mobile.jpg);
         background-size: 100%;
         padding: 20px 0;
+    }
+
+    h1{
+        text-align: center;
     }
 
     .titulo-sobre{
@@ -191,5 +195,19 @@ footer{
 
     .lista-beneficios, .imagem-beneficios{
         width: 100%;
+    }
+
+    .barbearia-slim{
+        width: 0.000001px;
+        float: left;
+        margin: -1px;
+    }
+
+    .itens:last-child{
+        margin-bottom: 40px;
+    }
+
+    .video{
+        padding: 2em 0 0 0;
     }
 }
