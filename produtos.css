@@ -98,3 +98,39 @@ footer{
     font-size: 13px;
     margin: 20px;
 }
+
+@media screen and (max-width: 480px){
+
+    header{
+        background: #BBBBBB;
+        background-size: 100%;
+        padding: 20px 0;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .caixa, .produtos{
+        width: auto;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .produtos li{
+        display:block;
+        text-align: center;
+        width: 90%;
+        padding: 30px 20px;
+        margin: 20px auto;
+        box-sizing: border-box;
+        border: 2px solid #000000;
+        box-shadow: inset 1px 1px 10px black;
+        border-radius: 10px;
+        transition: 1s;
+    }
+
+    .produtos img{}
+}
