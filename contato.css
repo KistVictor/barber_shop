@@ -78,3 +78,37 @@ form label, form legend{
 select{
     width: 80px;
 }
+
+.enviar{
+    width: 30%;
+    padding: 15px 0;
+    background-color: orange;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: darkorange;
+    transform: rotate(1deg) scale(1.2);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: rgb(58, 58, 58);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+th, td{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
