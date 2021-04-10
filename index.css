@@ -35,30 +35,26 @@ main{
 }
 
 .caixa-main{
+    position: relative;
     background-color: #ffffff;
     width: 800px;
-    position: relative;
-    margin: 80px auto;
+    margin: 40px auto;
 }
 
 .caixa-main img{
-    width: 400px;
+    width: 250px;
+    float: left;
     margin: -10px 20px 20px -10px;
 }
 
-.titulo-principal{
-    position: absolute;
-    top: 32px;
-    right: 40px;
+.titulo-sobre{
+    text-align: center;
     font-weight: bold;
     font-size: 2em;
 }
 
 .texto-main{
-    position: absolute;
-    top: 80px;
-    right: 55px;
-    width: 300px;
+    padding: 20px;
     text-align: justify;
     font-size: 20px;
 }
@@ -90,6 +86,13 @@ ul{
 .beneficios{
     background: #ffffff;
     padding: 20px;
+}
+
+.titulo-beneficios{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    clear: left;
 }
 
 .imgbeneficios{
