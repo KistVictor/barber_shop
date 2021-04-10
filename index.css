@@ -39,22 +39,35 @@ nav a{
 }
 
 .caixa-main{
-    position: relative;
     background-color: #FEFEFE;
     width: 940px;
     margin: 0 auto;
 }
 
 .caixa-main img{
-    width: 232px;
+    width: 250px;
     float: left;
     margin: -15px 20px 20px -10px;
 }
 
 .titulo-sobre{
+    padding-top: 0.5em;
     text-align: center;
-    font-weight: bold;
     font-size: 2em;
+    text-shadow: 1px 1px #c78c19;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    clear: left;
+    padding-top: 1em;
+    margin-bottom: 1em;
+    text-shadow: 1px 1px #c78c19;
+}
+
+.titulo-principal:first-letter, .titulo-sobre:first-letter{
+    font-weight: bold;
 }
 
 .texto-main{
@@ -95,17 +108,12 @@ strong{
     text-align: center;
 }
 
-.titulo-principal{
-    text-align: center;
-    font-weight: bold;
-    font-size: 2em;
-    clear: left;
-    padding-top: 1em;
-    margin-bottom: 1em;
-}
-
 .itens{
     line-height: 1.5em;
+}
+
+.itens::before{
+    content: "✦ ";
 }
 
 .itens:nth-child(1){ /*first/last/2n(pares)*/
@@ -113,7 +121,7 @@ strong{
 }
 
 .beneficios{
-    background-color: gray;
+    background-color: rgb(128, 128, 128);
 }
 
 .conteudo-beneficios{
@@ -128,7 +136,15 @@ strong{
 }
 
 .imagem-beneficios{
-    width: 50%;
+    width: 60%;
+    transition: 0.4s;
+    /*box-shadow: X Y blur intensity color*/
+    box-shadow: 5px 5px 35px 20px black;
+}
+
+.imagem-beneficios:hover{
+    width: 60%;
+    opacity: 80%;
 }
 
 .video{
