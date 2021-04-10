@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #CCCCCC;
 }
 
 header{
@@ -94,7 +95,7 @@ strong{
 }
 
 .mapa{
-    padding: 0 3em 3em 0;
+    padding: 0 3em;
     background: linear-gradient(#CCCCCC, grey);
 }
 
@@ -143,7 +144,6 @@ strong{
 }
 
 .imagem-beneficios:hover{
-    width: 60%;
     opacity: 80%;
 }
 
@@ -163,4 +163,33 @@ footer{
     color: #ffffff;
     font-size: 13px;
     margin: 20px;
+}
+
+@media screen and (max-width: 480px){
+
+    header{
+        background: url(img/barberslim.jpg);
+        background-size: 100%;
+        padding: 20px 0;
+    }
+
+    .titulo-sobre{
+        clear: left;
+    }
+
+    .caixa-main, .principal, .video, .conteudo-beneficios, .mapa-conteudo, .titulo-sobre, .texto-main, .caixa-header{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
+    }
 }

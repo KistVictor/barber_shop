@@ -56,17 +56,20 @@ nav a:active{
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
+    box-shadow: inset 1px 1px 10px black;
     border-radius: 10px;
     transition: 1s;
 }
 
 .produtos li:hover{
     border-color: #c78c19;
+    box-shadow: inset 1px 1px 10px #c78c19;
     transform: scale(1.05) rotate(-0.5deg);
 }
 
 .produtos li:active{
     border-color: #088c19;
+    box-shadow: inset 1px 1px 10px #088c19;
 }
 
 .produtos h2{
