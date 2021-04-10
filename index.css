@@ -46,12 +46,12 @@ main{
     margin: -10px 20px 20px -10px;
 }
 
-.titulo-centralizado{
+.titulo-principal{
     position: absolute;
-    top: 10px;
-    right: 70px;
+    top: 32px;
+    right: 40px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 2em;
 }
 
 .texto-main{
@@ -68,16 +68,12 @@ em{
 }
 
 .texto-main p{
-    margin-top: 20px;
+    margin-top: 1em;
     text-transform: initial;
 }
 
 #missao{
     font-size: 20px
-}
-
-em strong{
-    color: red;
 }
 
 ul{
