@@ -1,1 +1,1 @@
-[![Watch the video](index.png)](https://youtu.be/0lhfPz3hSgc)
+[https://raw.githubusercontent.com/Kist0/barber_shop/main/project/index.png](https://youtu.be/0lhfPz3hSgc)
