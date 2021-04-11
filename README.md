@@ -1,3 +1,1 @@
-<img src="https://raw.githubusercontent.com/Kist0/barber_shop/main/project-img/index.png">
-<img src="https://raw.githubusercontent.com/Kist0/barber_shop/main/project-img/products.png">
-<img src="https://raw.githubusercontent.com/Kist0/barber_shop/main/project-img/form.png">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0lhfPz3hSgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
