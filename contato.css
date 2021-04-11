@@ -133,16 +133,18 @@ th, td{
         position: static;
     }
 
-    fieldset{
-        padding: 20px;
-    }
-
-    .form, label, .input-padrao, .caixa, main{
+    .caixa, main, .input-padrao{
         width: auto;
     }
 
-    .checkbox{
+    #nomesobrenome, #email, #telefone, #mensagem{
         margin: 20px 20px;
+        width: auto;
+    }
+
+    .escolha{
+        margin-left: 20px;
+        margin-bottom: 2em;
         width: auto;
     }
 
@@ -152,8 +154,16 @@ th, td{
         margin: 0 0 10px;
     }
 
+    select{
+        margin-left: 20px;
+    }
+
     .enviar{
         width: 280px;
+    }
+
+    table{
+        margin: auto;
     }
 
 }
