@@ -1,1 +1,1 @@
-[https://raw.githubusercontent.com/Kist0/barber_shop/main/project/index.png](https://youtu.be/0lhfPz3hSgc)
+<a href="https://youtu.be/0lhfPz3hSgc"><img src="https://raw.githubusercontent.com/Kist0/barber_shop/main/project/index.png" alt=""></a>
