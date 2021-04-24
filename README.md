@@ -1,5 +1,6 @@
 <p align="center">
 <h1 align="center">Site barbearia</h1>
+<h2>Clique <a href="https://kist0.github.io/barber_shop/">aqui</a> acessar a página</h2>
 <h2>Clique <a href="https://raw.githubusercontent.com/Kist0/barber_shop/main/project/index-pc.png">aqui</a> para ver o video do projeto</h2>
 <p>Desenvolvido com HTML5 e CSS3 como forma de por em prática todos os conhecimentos adquiridos na primeira parte da formação de front-end da Alura. No HTML5 foi aplicado  todos os conceitos para uma boa semântica</p>
 <h2>Versão PC</h2>
